@@ -74,7 +74,7 @@ void printIdea(String idea) {
   idea = wrapAndPadText(idea, 28);
   printer.wake();
   printer.feed(1);
-  printer.println(F("______________________________"));
+  printer.println(F(" ______________________________"));
   
   if (idea.length() <= 28) {
     String pading = "";
